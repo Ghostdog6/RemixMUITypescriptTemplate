@@ -10,11 +10,11 @@ export const meta: MetaFunction = () => [
 ];
 
 // https://remix.run/docs/en/main/file-conventions/routes#basic-routes
-export default function CertificationTest() {
+export default function SectionOne() {
   return (
     <React.Fragment>
       <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-        CERTIFICATION TEST!
+        Section One
       </Typography>
       <Link to="/about" color="secondary" component={RemixLink}>
         Go to the about page
