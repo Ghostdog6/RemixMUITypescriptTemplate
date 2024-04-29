@@ -1,0 +1,16 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# project specific
+/.cache
+.env*
+
+# dependencies
+node_modules
+
+# production
+/build
+/public/build
+
+#testing
+/cypress/screenshots
+/cypress/videos
